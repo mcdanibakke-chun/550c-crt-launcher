@@ -1,0 +1,30 @@
+name: Windows preview packages
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-2022
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4, verified 2026-10-05
+        with:
+          persist-credentials: false
+      - name: Restore pinned SDK interface
+        shell: pwsh
+        run: ./scripts/restore-dependencies.ps1
+      - name: Compile preview and isolated harness
+        shell: pwsh
+        run: |
+          ./scripts/build.ps1
+          ./scripts/build.ps1 -TestBuild
+      - name: Check packages (human playback remains separate)
+        shell: pwsh
+        run: ./scripts/package.ps1
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4, verified 2026-10-05
+        with:
+          name: 550c-crt-preview-packages
+          path: out/packages/*
+          if-no-files-found: error
