@@ -1,0 +1,220 @@
+{
+  "version": "0.1.0-preview.1",
+  "files": [
+    {
+      "path": "src/app.manifest",
+      "bytes": 876,
+      "sha256": "5FA38813B832DC2E5FF339C67C8E9FCC96E1F78166101552F0F99F581872E577"
+    },
+    {
+      "path": "src/ClientDiscovery.cs",
+      "bytes": 4057,
+      "sha256": "9B0554462BE344F5CF01D656177607C1896E3CD0D9549CE58F2602EE475AEF95"
+    },
+    {
+      "path": "src/DesktopBridge.cs",
+      "bytes": 6352,
+      "sha256": "43892575BCEC2CC61AEFF3C544FA271643042FD9C009E79B020E24F481D3A362"
+    },
+    {
+      "path": "src/IconPack.cs",
+      "bytes": 3736,
+      "sha256": "E88A899D67B7ACA0D7A8477BEEA3A27E83DB01C412304A103AB71D7B8617B7D3"
+    },
+    {
+      "path": "src/LauncherHost.cs",
+      "bytes": 32524,
+      "sha256": "9D92FFAAA1E367F178F6E7BC348D6923BEAB784C4714971291A52D6292B838C1"
+    },
+    {
+      "path": "src/ProofHost.cs",
+      "bytes": 21882,
+      "sha256": "C050F16C78E4042E8E9F6B7B96608FA5D46A26F21CAC5C4284588A0580006F9E"
+    },
+    {
+      "path": "src/PublicIcon.cs",
+      "bytes": 1700,
+      "sha256": "78AC87D699FDC5ED9E190AC3DE94B66559EBEC2FDD956498DF3458DACA4073BF"
+    },
+    {
+      "path": "boot/boot.css",
+      "bytes": 10712,
+      "sha256": "E5B9265CC7A6F8F3737F3D795289D9FF8E4CA4B0EC0D17BA7B808E4B03AEC253"
+    },
+    {
+      "path": "boot/boot.js",
+      "bytes": 14827,
+      "sha256": "5ABB14EF9E4E710510E015D66273D1BA50C058D27A714EF1AEBDDF72748EB92D"
+    },
+    {
+      "path": "boot/index.html",
+      "bytes": 2746,
+      "sha256": "322385F027A2FD1BB5750A35BFDE8BE4B00508B09611ACAAE85E9D8A6A002699"
+    },
+    {
+      "path": "config/default.json",
+      "bytes": 21154,
+      "sha256": "5A0AAEC00F540031F95728A8D0374A09F36E53F0D82F5E4D6D2C99A1D560F745"
+    },
+    {
+      "path": "themes/550C_GRAY_CRT_v02.txt",
+      "bytes": 425,
+      "sha256": "EC68B152AA7EC15000334D504F418EF44C61DC11EA72F96BABB398D1AF44CB8B"
+    },
+    {
+      "path": "assets/icons/550c-terminal.ico",
+      "bytes": 19189,
+      "sha256": "932E486570EAA290302656040631C4F9B2B1E3A2AB584022CE1272A089902BE5"
+    },
+    {
+      "path": "assets/icons/550c-terminal.png",
+      "bytes": 4518,
+      "sha256": "B0A55A9159355047BB020AC6658646A5BE6B52A2E3F052FA30DD456631964400"
+    },
+    {
+      "path": "assets/icons/550c-terminal.svg",
+      "bytes": 709,
+      "sha256": "EC9AAC546499F8C08F256C90F1A958AA9CD57F23F417277CBC484E9205C93653"
+    },
+    {
+      "path": "scripts/build.ps1",
+      "bytes": 4785,
+      "sha256": "09F01D257E0F725B5009D563132A26B1E32618761C9E9D43A3460FD66AA43F62"
+    },
+    {
+      "path": "scripts/create-shortcut.ps1",
+      "bytes": 1238,
+      "sha256": "20DEAAD884A3C6C86210DE1FA08DC4E5FB5D94A7D7C550C1FD98527A6A03F254"
+    },
+    {
+      "path": "scripts/package.ps1",
+      "bytes": 3843,
+      "sha256": "A51B6559293F6332BEC736B5E6253A148EEB5C82AFD3A3EA87DF7032CFBBB4FC"
+    },
+    {
+      "path": "scripts/restore-dependencies.ps1",
+      "bytes": 1160,
+      "sha256": "65F0543E1CF1A5F4F3C88E85C0405A8990496BC7723159ABD9D718600D94EA30"
+    },
+    {
+      "path": "scripts/test-preview.ps1",
+      "bytes": 2923,
+      "sha256": "53E376F47676EB3C2767CE19ECAC1ED90C7C313A2B96CD07A1F76F5A471DD061"
+    },
+    {
+      "path": "scripts/test.ps1",
+      "bytes": 4094,
+      "sha256": "405D463193937AFE8464D4A61689B31E95CC7AA3923763F60B447276EECDB00B"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 1864,
+      "sha256": "D42DEE6EEF32275DA984ED7DEEC2F89DEE21601543C28647602497B54EF5F3E3"
+    },
+    {
+      "path": "docs/DISTRIBUTION.md",
+      "bytes": 1703,
+      "sha256": "F549CA88F9213716B7207842CF5039C6F1B41AECAB02C44E0DF0ACCB0B009434"
+    },
+    {
+      "path": "docs/PUBLISHING.md",
+      "bytes": 1858,
+      "sha256": "66FBF3D91DBA31CD2BEB9B8F2311DDD41F1B2F2230AE4760F676C2C540D3946E"
+    },
+    {
+      "path": "docs/QA.md",
+      "bytes": 1692,
+      "sha256": "EE2BEBA4464EDA368EB747A8060395E4C05CA5F30E99EA7E59258DA92A66BFAD"
+    },
+    {
+      "path": "docs/THEME.md",
+      "bytes": 1260,
+      "sha256": "C0D014919CF7FB4929A1405BD934921D465299C293A7F54975CA26F49DC2E726"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 3543,
+      "sha256": "2E542B94CB03B098F7AC591310145B3E3F879AE064985306EB140203FBE5B6B4"
+    },
+    {
+      "path": "docs/images/boot-preview.png",
+      "bytes": 578386,
+      "sha256": "D8EC2C2C3E440A22AA01BC3CB408E858D9A4BE9578AAE94349D81936202C2CF2"
+    },
+    {
+      "path": "tests/TestDesktopBridge.cs",
+      "bytes": 2005,
+      "sha256": "812C523F00BE4A74F9E15B7D42B3943AE666339B7A11BCC5B5430F0321B07EDF"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "bytes": 502,
+      "sha256": "35223A1EB0A7C668FBD2A28BD1D3DE269B7D26D2F40872E29F4FC1FE3BE3EF4E"
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "bytes": 924,
+      "sha256": "A49FFA4720A6C10506E6E9F4BB372618770312C4FE59454D23B0EB92EFF21609"
+    },
+    {
+      "path": "third-party/WebView2-LICENSE.txt",
+      "bytes": 1487,
+      "sha256": "0AF8F1B807512AAE39C2AC1AA4D0CAE65CABECB6FD554B8439A5162A0D6ECA55"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6412,
+      "sha256": "2EF36C5366FA145A7C8F9593200843E3551E9BD991DD8311A53F2C30EEFDB717"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1360,
+      "sha256": "D92C88D84D6EE1B2895E67E533D7433198739B2FDD7DFB6CD3F54A17690C6496"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 2474,
+      "sha256": "CC1C4B63CD802AF4B6F9CD3622C59490CEAC472262EC8F99DAF95AE01F780AEE"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1335,
+      "sha256": "649E97973AF68C554DDB55C66C3B8103BD1A445C6BF126E109DCB0480D21F2BC"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 937,
+      "sha256": "904CCCEE33201AFECAFCD55DF8148AE1EBA2ED1524D41E02A4F16FC47FBB6E02"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 938,
+      "sha256": "6CBD4324AA3EF9143270405F351F76596AC1F3230BCB5359153F6936C2815A81"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 883,
+      "sha256": "306CCBFC7AD3063EE41465753E321F7D359E4E50A69075B7E96DC6EBEE50323E"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1178,
+      "sha256": "551214B5E2043AC206CE6AAA89D019F0C948F3F5D59D66BEA402C49B7B5C7E87"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 171,
+      "sha256": "9D6486E78889390FF309D920848A80308B90EBB74A373AE49CFB1DA07C88FD12"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 148,
+      "sha256": "DF24989A0FCCC0B3E01FACE61CF3B4D260E494736C3E3613CA493661BDC5BC11"
+    }
+  ],
+  "musicIncluded": false,
+  "fontFilesIncluded": false,
+  "modifiedOfficialLogoIncluded": false,
+  "humanPlaybackAcceptance": "PENDING",
+  "codeLicense": "MIT; third-party rights excluded"
+}
