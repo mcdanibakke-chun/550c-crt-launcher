@@ -2,6 +2,8 @@
 
 灰白 CRT 风格的独立 Windows 启动器与主题套件，适配官方 ChatGPT Desktop。
 
+**创意来自：[B 站 550C 开机动画 DSH 插件演示（BV1jDaz6WExP）](https://www.bilibili.com/video/BV1jDaz6WExP/)。** 感谢原作带来的创意与视觉启发。本项目的动画与启动器独立实现，详细来源见 [CREDITS](CREDITS.md)。
+
 <img src="assets/icons/550c-terminal.png" alt="550C 原创终端图标" width="96">
 
 ![灰白 Full 启动动画](docs/images/boot-preview.png)

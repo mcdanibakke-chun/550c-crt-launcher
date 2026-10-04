@@ -1,5 +1,9 @@
 # Credits
 
+## 创意来源
+
+本项目的创意来自：[B 站 550C 开机动画 DSH 插件演示（BV1jDaz6WExP）](https://www.bilibili.com/video/BV1jDaz6WExP/)。感谢原作带来的创意与视觉启发。本项目的动画与启动器独立实现，不附带原视频、音频或原动画源码。
+
 Independent project implementation and original `>_` terminal icon: 550C CRT Launcher contributors. Generated implementation assistance: OpenAI Codex. Project source/presets/docs/original terminal icon: MIT; third-party rights excluded.
 
 Visual reference: [dsh-550c-boot](https://github.com/yannicksong0106/dsh-550c-boot), audited commit `f8a60407528c9ca2d875574b111eda00690ffc36`, plugin version 0.3.3. Original animation and HTML author **Voidpoket**; plugin engineering **Ziyang Song / yannicksong0106**. Their [credits](https://github.com/yannicksong0106/dsh-550c-boot/blob/f8a60407528c9ca2d875574b111eda00690ffc36/CREDITS.md) distinguish plugin MIT engineering from the original animation. No separate permission to redistribute that original was established; it is not included. Runtime HTML/CSS/JS/SVG here is independently implemented, not extracted original paths or transformed upstream source. Attribution is not an assertion of permission or endorsement.
