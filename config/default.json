@@ -1,0 +1,897 @@
+{
+  "schemaVersion": 2,
+  "proofVersion": "0.1.0-preview.1",
+  "mode": "full",
+  "durationMs": 16000,
+  "fadeMs": 450,
+  "skipFadeMs": 160,
+  "audio": {
+    "enabled": false,
+    "file": "assets/audio/local-bgm.wav",
+    "volume": 0.55,
+    "fadeInMs": 180
+  },
+  "playWhenAlreadyRunning": false,
+  "alreadyRunningDurationMs": 4000,
+  "window": {
+    "style": "fullscreen",
+    "monitor": "primary",
+    "topMost": true
+  },
+  "colors": {
+    "background": "#080909",
+    "amber": "#aeb0a7",
+    "bright": "#dedfd6",
+    "dim": "#383b35",
+    "text": "#bfc1b6",
+    "muted": "#5c6056",
+    "red": "#cf7880",
+    "green": "#b3b775",
+    "cyan": "#b9beb5",
+    "logoWhite": "#eeeeea",
+    "logoRed": "#c83748"
+  },
+  "fontFamily": "Consolas, '新宋体', NSimSun, '宋体', SimSun, monospace",
+  "text": {
+    "brand": "550C CRT SYSTEM",
+    "product": "CHATGPT DESKTOP",
+    "initialized": "INTERFACE INITIALIZED",
+    "final": "SYSTEM IS REWRITTEN",
+    "symbol": "550C",
+    "fictional": "550C CRT / COMMUNITY LAUNCHER",
+    "popupDisclaimer": "550C CRT / COMMUNITY LAUNCHER",
+    "skipHint": "ESC / CLICK TO SKIP",
+    "waiting": "CHATGPT INITIALIZING…",
+    "nativeWarmup": "",
+    "error": "VISUAL PROOF COULD NOT START — SEE LOCAL RUN LOG",
+    "headerMode": "MODE FULL / LOCAL BOOT SEQUENCE",
+    "telemetryTitle": "550C / DISPLAY STATUS",
+    "terminalTitle": "550C CORE TERMINAL",
+    "nodesTitle": "SCENE COMPOSITION",
+    "nodeCaption": "INTERFACE NODE MATRIX",
+    "signalNote": "550C / FULL BOOT  |  CHATGPT DESKTOP",
+    "nodePrefix": "N-",
+    "nodeIdle": "STANDBY",
+    "nodeActive": "WRITE",
+    "nodeDone": "ONLINE",
+    "progressUnit": "NODES",
+    "countdownUnit": "TO REVEAL",
+    "phaseNames": [
+      "550C BOOT",
+      "CORE INITIALIZATION",
+      "INTERFACE INITIALIZATION",
+      "SIGNAL LINK",
+      "WORKSPACE ASSEMBLY",
+      "BUFFER ALIGNMENT",
+      "INTERFACE REWRITE",
+      "REWRITE COMPLETE",
+      "VERIFICATION",
+      "FINAL INITIALIZATION",
+      "COUNTDOWN",
+      "SYSTEM IS REWRITTEN"
+    ],
+    "telemetryRows": [
+      [
+        "[ 01 / DISPLAY CORE ]",
+        ""
+      ],
+      [
+        "PROFILE",
+        "550C / FULL"
+      ],
+      [
+        "PHOSPHOR",
+        "GRAY / P4"
+      ],
+      [
+        "FRAME CLOCK",
+        "60 Hz"
+      ],
+      [
+        "GLYPH ATLAS",
+        "LOCAL"
+      ],
+      [
+        "WINDOW STACK",
+        "12"
+      ],
+      [
+        "[ 02 / COMPOSITION ]",
+        ""
+      ],
+      [
+        "TEXT STREAM",
+        "ALIGNED"
+      ],
+      [
+        "SURFACE MAP",
+        "STAGED"
+      ],
+      [
+        "SCAN CARRIER",
+        "STABLE"
+      ],
+      [
+        "TIMELINE",
+        "16 000 ms"
+      ],
+      [
+        "[ 03 / NODE ARRAY ]",
+        ""
+      ],
+      [
+        "CHANNELS",
+        "47 / 47"
+      ],
+      [
+        "MODE",
+        "SEQUENTIAL"
+      ],
+      [
+        "OUTPUT",
+        "LOCAL DISPLAY"
+      ],
+      [
+        "[ 04 / WORKSPACE ]",
+        ""
+      ],
+      [
+        "PRODUCT",
+        "CHATGPT DESKTOP"
+      ],
+      [
+        "INTERFACE",
+        "PREPARING"
+      ],
+      [
+        "BOOT PROFILE",
+        "FULL / GRAY CRT"
+      ]
+    ],
+    "signalLines": [
+      "// 550C / local drawing sequence",
+      "void compose_scene(frame_clock *clock) {",
+      "    surface_t *frame = display_buffer;",
+      "    for (int i = 0; i < GLYPH_COUNT; i++) {",
+      "        glyph[i].opacity = frame_map[i];",
+      "        draw_glyph(frame, glyph[i]);",
+      "    }",
+      "    layout_stack.align(frame->bounds);",
+      "    terminal.advance(clock->elapsed);",
+      "    scanline_mix(frame, phosphor_mask);",
+      "    if (clock->phase == INTERFACE_WRITE) {",
+      "        node_array.commit(display_map);",
+      "        window_stack.reflow(frame);",
+      "    }",
+      "    display.present(frame);",
+      "}",
+      "// Every operation belongs to this scene.",
+      "const int CHANNEL_COUNT = 47;",
+      "const int FULL_SEQUENCE_MS = 16000;",
+      "surface_map[0] = { TEXT, SYMBOL, FRAME };"
+    ],
+    "logs": [
+      [
+        4050,
+        "[550C] OPENAI SYSTEM / CHATGPT DESKTOP",
+        "bright"
+      ],
+      [
+        4160,
+        "[550C] FULL BOOT / LOCAL DISPLAY SEQUENCE",
+        ""
+      ],
+      [
+        4270,
+        "[550C] 字形图集就绪，进入显示序列。",
+        ""
+      ],
+      [
+        4380,
+        "[550C] 三栏工作区布局已载入。",
+        ""
+      ],
+      [
+        4490,
+        "[550C] 灰白磷光层 / P4 PHOSPHOR",
+        ""
+      ],
+      [
+        4600,
+        "[550C] 帧时钟同步 / FRAME CLOCK ALIGNED",
+        ""
+      ],
+      [
+        4720,
+        "[550C] 启动序列：标志 → 终端 → 界面",
+        ""
+      ],
+      [
+        4840,
+        "[550C] 准备界面模块，建立窗口层次。",
+        ""
+      ],
+      [
+        4970,
+        "[550C] WORKSPACE INITIALIZATION / 47 MODULES",
+        "bright"
+      ],
+      [
+        5120,
+        "[550C] MODULE 01 / TEXT OUTPUT STAGED",
+        ""
+      ],
+      [
+        5260,
+        "[550C] MODULE 02 / SYMBOL BUILD STAGED",
+        ""
+      ],
+      [
+        5420,
+        "[550C] MODULE 03 / WINDOW STACK STAGED",
+        ""
+      ],
+      [
+        5590,
+        "[550C] 文字排版与显示帧缓存已对齐。",
+        ""
+      ],
+      [
+        5760,
+        "[550C] 继续完整启动序列。",
+        ""
+      ],
+      [
+        5930,
+        "[550C] DISPLAY LINK / FRAME_A → FRAME_B",
+        ""
+      ],
+      [
+        6100,
+        "[550C] 文本流进入显示缓冲。",
+        ""
+      ],
+      [
+        6270,
+        "[550C] SIGNAL MONITOR / LOCAL CARRIER",
+        "cyan"
+      ],
+      [
+        6440,
+        "[550C] 图形扫描与字符输出同步。",
+        ""
+      ],
+      [
+        6610,
+        "[550C] SURFACE MAP / REBUILD SCHEDULED",
+        ""
+      ],
+      [
+        6790,
+        "[550C] 重新对齐启动画面的显示层。",
+        "red"
+      ],
+      [
+        6970,
+        "[550C] FRAME MAP REBUILD / 47 CHANNELS",
+        "red"
+      ],
+      [
+        7150,
+        "[550C] 清理旧帧，保留显示连续性。",
+        ""
+      ],
+      [
+        7330,
+        "[550C] GLYPH BUFFER / ALIGNING",
+        ""
+      ],
+      [
+        7510,
+        "[550C] WORKSPACE ASSEMBLY / STAGED",
+        "bright"
+      ],
+      [
+        7690,
+        "[550C] 文字、标志与窗口层正在组装。",
+        ""
+      ],
+      [
+        7870,
+        "[550C] 文本输出层独立同步。",
+        ""
+      ],
+      [
+        8050,
+        "[550C] FRAME BUFFER / ALIGNED",
+        "green"
+      ],
+      [
+        8230,
+        "[550C] 保持开机画面帧序列连续。",
+        ""
+      ],
+      [
+        8410,
+        "[550C] INTERFACE CONTROLLER / READY",
+        ""
+      ],
+      [
+        8590,
+        "[550C] 47 个显示通道等待逐一映射。",
+        ""
+      ],
+      [
+        8770,
+        "[550C] INTERFACE WRITE / START",
+        "bright"
+      ],
+      [
+        8950,
+        "[550C] N-01 → N-06 / DISPLAY MAP",
+        ""
+      ],
+      [
+        9140,
+        "[550C] N-07 / TEXT STREAM ALIGNMENT",
+        "red"
+      ],
+      [
+        9360,
+        "[550C] N-07 / FRAME SEQUENCE COMMITTED",
+        ""
+      ],
+      [
+        9580,
+        "[550C] N-08 → N-22 / WRITE",
+        ""
+      ],
+      [
+        9800,
+        "[550C] N-23 / WORKSPACE CARRIER ALIGNMENT",
+        "red"
+      ],
+      [
+        10020,
+        "[550C] N-23 / DISPLAY LINK ALIGNED",
+        ""
+      ],
+      [
+        10260,
+        "[550C] N-24 → N-36 / WRITE",
+        ""
+      ],
+      [
+        10500,
+        "[550C] N-37 → N-46 / WRITE",
+        ""
+      ],
+      [
+        10740,
+        "[550C] 最后一个显示通道等待帧确认。",
+        ""
+      ],
+      [
+        11000,
+        "[550C] FRAME MAP / 47 CHANNELS COMMITTED",
+        ""
+      ],
+      [
+        11250,
+        "[550C] 47 / 47 INTERFACE NODES ONLINE",
+        "green"
+      ],
+      [
+        11500,
+        "[550C] INTERFACE WRITE / COMPLETE",
+        "bright"
+      ],
+      [
+        11740,
+        "[550C] 启动画面连续性检查。",
+        ""
+      ],
+      [
+        11980,
+        "[550C] DISPLAY FRAME / READY",
+        ""
+      ],
+      [
+        12220,
+        "[550C] 收束文字输出与窗口层。",
+        ""
+      ],
+      [
+        12460,
+        "[550C] FINAL INITIALIZATION",
+        "red"
+      ],
+      [
+        12700,
+        "[550C] 最终状态字幕已就绪。",
+        ""
+      ],
+      [
+        12940,
+        "[550C] INTERFACE INITIALIZED",
+        "green"
+      ],
+      [
+        13180,
+        "[550C] 03 → 02 → 01 / FINAL COUNTDOWN",
+        ""
+      ],
+      [
+        14000,
+        "[550C] SYSTEM IS REWRITTEN",
+        "bright"
+      ]
+    ],
+    "popups": [
+      {
+        "at": 5000,
+        "until": 7900,
+        "color": "red",
+        "left": "29%",
+        "top": "35%",
+        "layer": 2,
+        "headline": "CHATGPT DESKTOP / FULL BOOT",
+        "lines": [
+          "正在准备开机画面的界面模块与窗口布局。"
+        ],
+        "buttons": [
+          {
+            "response": "PREPARED",
+            "action": "confirm",
+            "label": "PREPARE"
+          },
+          {
+            "response": "INITIALIZATION ACCEPTED",
+            "action": "close",
+            "label": "CONTINUE"
+          }
+        ],
+        "title": "WORKSPACE INITIALIZATION",
+        "status": "SEQUENCE CONFIRMATION",
+        "rows": [
+          [
+            "PROFILE",
+            "550C / FULL"
+          ],
+          [
+            "DISPLAY",
+            "P4 / GRAY PHOSPHOR"
+          ],
+          [
+            "TEXT BUFFER",
+            "LOCAL / STAGED"
+          ],
+          [
+            "SURFACE MAP",
+            "47 CHANNELS"
+          ],
+          [
+            "OUTPUT",
+            "DISPLAY FRAME"
+          ]
+        ],
+        "displayCount": 47,
+        "countLabel": "INTERFACE MODULES STAGED",
+        "notice": "保持显示连续性。确认后继续完整启动序列。"
+      },
+      {
+        "at": 6250,
+        "until": 7430,
+        "color": "cyan",
+        "left": "72%",
+        "top": "9%",
+        "layer": 3,
+        "wave": false,
+        "headline": "DISPLAY LINK ESTABLISHED",
+        "lines": [
+          "文字输出与显示载波已同步。等待界面通道响应。"
+        ],
+        "title": "SIGNAL MONITOR",
+        "status": "DISPLAY CHANNEL / CONNECTED",
+        "rows": [
+          [
+            "CARRIER",
+            "P4 / PHOSPHOR"
+          ],
+          [
+            "CHANNEL A",
+            "CONNECTED"
+          ],
+          [
+            "CHANNEL B",
+            "CONNECTED"
+          ],
+          [
+            "TEXT STREAM",
+            "ALIGNED"
+          ],
+          [
+            "FRAME MAP",
+            "READY"
+          ]
+        ],
+        "width": "27vw"
+      },
+      {
+        "at": 6950,
+        "until": 8640,
+        "color": "red",
+        "left": "58%",
+        "top": "59%",
+        "layer": 4,
+        "headline": "FRAME MAP REBUILD",
+        "lines": [
+          "正在重新对齐显示缓冲，清除开机画面的残留信号。",
+          "47 个界面通道待命，准备进入工作区组装阶段。"
+        ],
+        "miniLog": [
+          "[550C] frame clock: align",
+          "[550C] glyph map: rebuild",
+          "[550C] channel array: standby",
+          "[550C] display continuity: held"
+        ],
+        "title": "BUFFER ALIGNMENT",
+        "status": "FRAME BUFFER / ALIGNING",
+        "rows": [
+          [
+            "PHASE",
+            "ALIGNING"
+          ],
+          [
+            "GLYPH MAP",
+            "REBUILD"
+          ],
+          [
+            "CARRIER",
+            "SYNCHRONIZING"
+          ],
+          [
+            "CHANNEL ARRAY",
+            "47 / STANDBY"
+          ]
+        ],
+        "buttons": [
+          {
+            "response": "FRAME LOG SELECTED",
+            "action": "details",
+            "label": "VIEW LOG"
+          },
+          {
+            "response": "ALIGNMENT ACCEPTED",
+            "action": "close",
+            "label": "CONTINUE"
+          }
+        ],
+        "width": "39vw"
+      },
+      {
+        "at": 7650,
+        "until": 11400,
+        "color": "red",
+        "left": "52%",
+        "top": "61%",
+        "layer": 5,
+        "headline": "INTERFACE LAYER COMPOSITION",
+        "lines": [
+          "文字、符号与窗口显示层正在组装。",
+          "保持帧连续性，准备完整界面输出。"
+        ],
+        "title": "WORKSPACE ASSEMBLY",
+        "status": "WORKSPACE / ASSEMBLING",
+        "rows": [
+          [
+            "TEXT LAYER",
+            "COMPOSING"
+          ],
+          [
+            "FRAME BUFFER",
+            "STAGED"
+          ],
+          [
+            "PHOSPHOR MAP",
+            "REBUILD"
+          ],
+          [
+            "OUTPUT",
+            "PREPARING"
+          ]
+        ],
+        "width": "45vw"
+      },
+      {
+        "at": 8200,
+        "until": 8750,
+        "color": "",
+        "left": "6%",
+        "top": "14%",
+        "layer": 6,
+        "headline": "FRAME BUFFER ALIGNED",
+        "lines": [
+          "显示缓冲已对齐。进入界面通道覆写阶段。"
+        ],
+        "title": "BUFFER SYNCHRONIZATION",
+        "status": "FRAME BUFFER / STABLE",
+        "width": "32vw"
+      },
+      {
+        "at": 8800,
+        "until": 11200,
+        "color": "",
+        "left": "6%",
+        "top": "21%",
+        "layer": 6,
+        "progress": "nodes",
+        "headline": "SEQUENTIAL CHANNEL REWRITE",
+        "lines": [
+          "正在逐一初始化 47 个界面通道。",
+          "文字输出、显示映射与窗口层保持同步。"
+        ],
+        "title": "INTERFACE REWRITE CONTROLLER",
+        "status": "INTERFACE ARRAY / WRITING",
+        "rows": [
+          [
+            "TARGET",
+            "INTERFACE CHANNEL ARRAY"
+          ],
+          [
+            "NODES",
+            "47"
+          ],
+          [
+            "STRATEGY",
+            "REBUILD / REVEAL"
+          ],
+          [
+            "FRAME MAP",
+            "BUFFER_A / BUFFER_B"
+          ],
+          [
+            "MODE",
+            "SEQUENTIAL WRITE"
+          ]
+        ],
+        "buttons": [
+          {
+            "response": "REWRITE IN PROGRESS",
+            "action": "close",
+            "label": "CONTINUE"
+          }
+        ],
+        "width": "43vw"
+      },
+      {
+        "at": 9210,
+        "until": 9620,
+        "color": "red",
+        "left": "56%",
+        "top": "11%",
+        "layer": 8,
+        "headline": "TEXT STREAM ALIGNMENT",
+        "lines": [
+          "通道 07：对齐文字输出流，重建帧缓存。"
+        ],
+        "miniLog": [
+          "[N-07] text stream: align",
+          "[N-07] frame buffer: rebuild",
+          "[N-07] glyph sequence: commit",
+          "[N-07] carrier: synchronized"
+        ],
+        "title": "CHANNEL SYNCHRONIZATION / N-07",
+        "status": "N-07 / SYNCHRONIZING",
+        "rows": [
+          [
+            "NODE",
+            "N-07"
+          ],
+          [
+            "LAYER",
+            "TEXT STREAM"
+          ],
+          [
+            "PHASE",
+            "ALIGNING"
+          ],
+          [
+            "BUFFER",
+            "FRAME_A"
+          ]
+        ],
+        "width": "37vw"
+      },
+      {
+        "at": 10020,
+        "until": 10450,
+        "color": "red",
+        "left": "48%",
+        "top": "60%",
+        "layer": 9,
+        "headline": "WORKSPACE CARRIER ALIGNMENT",
+        "lines": [
+          "通道 23：对齐工作区载波，提交显示映射。"
+        ],
+        "miniLog": [
+          "[N-23] workspace carrier: align",
+          "[N-23] phosphor map: rebuild",
+          "[N-23] frame sequence: commit",
+          "[N-23] display link: synchronized"
+        ],
+        "title": "CHANNEL SYNCHRONIZATION / N-23",
+        "status": "N-23 / SYNCHRONIZING",
+        "rows": [
+          [
+            "NODE",
+            "N-23"
+          ],
+          [
+            "LAYER",
+            "WORKSPACE"
+          ],
+          [
+            "PHASE",
+            "ALIGNING"
+          ],
+          [
+            "BUFFER",
+            "FRAME_B"
+          ]
+        ],
+        "width": "37vw"
+      },
+      {
+        "at": 11200,
+        "until": 11900,
+        "color": "green",
+        "left": "29%",
+        "top": "33%",
+        "layer": 10,
+        "headline": "47 / 47 DISPLAY CHANNELS READY",
+        "lines": [
+          "界面通道初始化完成。显示连续性校验中。"
+        ],
+        "title": "INTERFACE WRITE SUMMARY",
+        "status": "INTERFACE REWRITE / COMPLETE",
+        "rows": [
+          [
+            "TOTAL",
+            "47"
+          ],
+          [
+            "ONLINE",
+            "47"
+          ],
+          [
+            "SYNCHRONIZED",
+            "47"
+          ],
+          [
+            "OUTPUT",
+            "READY"
+          ]
+        ],
+        "buttons": [
+          {
+            "response": "ACKNOWLEDGED",
+            "action": "confirm",
+            "label": "ACKNOWLEDGE"
+          },
+          {
+            "response": "INTERFACE ACCEPTED",
+            "action": "close",
+            "label": "PROCEED"
+          }
+        ]
+      },
+      {
+        "at": 11900,
+        "until": 12400,
+        "color": "",
+        "left": "29%",
+        "top": "33%",
+        "layer": 11,
+        "headline": "FRAME SEQUENCE READY",
+        "lines": [
+          "启动动画的显示序列已完成。准备最终状态画面。"
+        ],
+        "title": "DISPLAY FRAME CHECK",
+        "status": "FRAME CHECK / PASS"
+      },
+      {
+        "at": 12400,
+        "until": 13200,
+        "color": "red",
+        "left": "29%",
+        "top": "33%",
+        "layer": 12,
+        "headline": "INTERFACE INITIALIZED",
+        "lines": [
+          "收束启动序列，完成界面显示层准备。",
+          "最终状态字幕已就绪。"
+        ],
+        "title": "FINAL INITIALIZATION",
+        "status": "BOOT SEQUENCE / COMPLETE",
+        "rows": [
+          [
+            "SEQUENCE",
+            "COMPLETE"
+          ],
+          [
+            "CARRIER",
+            "STABLE"
+          ],
+          [
+            "CHANNELS",
+            "47 / ONLINE"
+          ],
+          [
+            "FINAL FRAME",
+            "ARMED"
+          ]
+        ],
+        "buttons": [
+          {
+            "response": "CONFIRMED",
+            "action": "confirm",
+            "label": "CONFIRM"
+          },
+          {
+            "response": "FINAL FRAME ARMED",
+            "action": "close",
+            "label": "CONTINUE"
+          }
+        ]
+      },
+      {
+        "at": 13200,
+        "until": 14000,
+        "color": "",
+        "left": "29%",
+        "top": "33%",
+        "layer": 13,
+        "progress": "countdown",
+        "headline": "REVEAL SEQUENCE ARMED",
+        "lines": [
+          "CHATGPT DESKTOP / INTERFACE INITIALIZED"
+        ],
+        "title": "FINAL COUNTDOWN",
+        "status": "FINAL DISPLAY FRAME / READY"
+      }
+    ],
+    "bootCaption": "550C SYSTEM BOOT",
+    "windowControls": {
+      "close": "CLOSE",
+      "maximizeSymbol": "□",
+      "closeSymbol": "×",
+      "minimizeSymbol": "−",
+      "maximize": "MAXIMIZE / RESTORE",
+      "maximizeStatus": "WINDOW MAXIMIZED",
+      "minimize": "MINIMIZE",
+      "minimizeStatus": "WINDOW MINIMIZED",
+      "closeStatus": "WINDOW CLOSED",
+      "restoreStatus": "WINDOW RESTORED"
+    },
+    "launcher": {
+      "waiting": "CHATGPT INITIALIZING…",
+      "waitingDetail": "正在等待 ChatGPT 窗口出现 · Alt+F4 可取消",
+      "waitingMinimal": "正在打开 ChatGPT…",
+      "failure": "CHATGPT STARTUP INCOMPLETE",
+      "failureDetail": "启动未完成。可重试或使用原官方入口；此画面将在 {seconds} 秒后关闭。",
+      "retry": "重试",
+      "close": "关闭",
+      "mutexName": "Local\\550C.CRT.CommunityLauncher",
+      "title": "550C CRT Launcher"
+    }
+  },
+  "typingMsPerCharacter": 7,
+  "chatgpt": {
+    "appId": "",
+    "processName": "",
+    "windowTimeoutMs": 90000,
+    "pollIntervalMs": 200,
+    "failureAutoCloseMs": 20000
+  }
+}
